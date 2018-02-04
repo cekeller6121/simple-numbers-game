@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+  }
+.gameWindow {
+  background-color: LightBlue;
+  border-radius: 10px;
+  margin: 15%;
+  padding: 5%;
+  }
+
+h3 {
+  text-align: center;
+}
+
+#hintField {
+  color: Red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clement's Number Guessing Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <section class="gameWindow">
+      <div class="introDiv">
+        <h3>Clement's Number Guessing Game</h3>
+        <p>We've randomly picked a number between 1 and 100. You have 10 chances to guess what the secret number is. Don't worry, we'll tell you each time if your guess is high or low. Good luck!</p>
+      </div>
+      <div class="gameDiv">
+        <span>Enter a number between 1 and 100: </span>
+        <input type="text" id="numberGuess" name="numberGuess" placeholder="enter number" autofocus>
+        <input type="submit" id="goButton" value="Go!">
+        <output id="hintField" name="hintField"></output>
+        <br>
+        <output id="showGuesses" name="showGuesses"></output>
+      </div>
+    </section>
+
+
+
+
+  <script src="main.js"></script>
+  </body>
+</html>
